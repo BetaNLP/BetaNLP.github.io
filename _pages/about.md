@@ -1,49 +1,79 @@
 ---
 permalink: /
-title: "academicpages is a ready-to-fork GitHub Pages template for academic personal websites"
+title: "Welcome to Feng Chong’s research group."
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
 
-This is the front page of a website that is powered by the [academicpages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the respository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. You can fork [this repository](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and markdown files, add your own PDFs and other content, and have your own site for free, with no ads! An older version of this template powers my own personal website at [stuartgeiger.com](http://stuartgeiger.com), which uses [this Github repository](https://github.com/staeiou/staeiou.github.io).
-
-A data-driven personal website
+个人信息
 ======
-Like many other Jekyll-based GitHub Pages templates, academicpages makes you separate the website's content from its form. The content & metadata of your website are in structured markdown files, while various other files constitute the theme, specifying how to transform that content & metadata into HTML pages. You keep these various markdown (.md), YAML (.yml), HTML, and CSS files in a public GitHub repository. Each time you commit and push an update to the repository, the [GitHub pages](https://pages.github.com/) service creates static HTML pages based on these files, which are hosted on GitHub's servers free of charge.
+冯冲，博士、教授、博导，国家级领军人才。中国中文信息学会机器翻译专委会副主任委员，CCF高级会员。2005年于中国科技大学计算机系获工学博士学位后，至2010年3月在中科院计算机语言信息工程研究中心从事语言信息处理领域研究开发和项目管理工作。2010年3月随团队调入北京理工大学计算机学院。现为计算机学院语言智能和社会计算研究所副所长兼书记，同时担任北京市海量语言信息处理和云计算应用工程研究中心副主任、工信部信息智能处理与内容安全重点实验室副主任。担任KBS、TKDE等SCI国际期刊审稿人；COLING、CCL、CCMT等国内外学术会议的领域主席和程序委员。
 
-Many of the features of dynamic content management systems (like Wordpress) can be achieved in this fashion, using a fraction of the computational resources and with far less vulnerability to hacking and DDoSing. You can also modify the theme to your heart's content without touching the content of your site. If you get to a point where you've broken something in Jekyll/HTML/CSS beyond repair, your markdown files describing your talks, publications, etc. are safe. You can rollback the changes or even delete the repository and start over -- just be sure to save the markdown files! Finally, you can also write scripts that process the structured data on the site, such as [this one](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb) that analyzes metadata in pages about talks to display [a map of every location you've given a talk](https://academicpages.github.io/talkmap.html).
+专注从事语言信息处理技术近二十年。作为负责人承担国家重点研发计划项目、国家863计划项目、国家自然科学基金等各类科研项目10余项，作为核心骨干参与国防项目5项。所研制开发的技术和平台在解放军某部、国家安全部某局、国家计算机网络与安全管理中心、北京市科技情报所等部门部署运行，突破了关键技术，取得了显著效果，产生了良好效益。在TKDE、KBS、SIGIR、EMNLP、AAAI等高水平国际期刊和会议发表一作论文SCI索引10余篇、EI索引20余篇。获省部级一等奖1奖、省部级二等奖1项（排名第4）、省部级三等奖2项（排名均为第2）、国防科技成果鉴定 4 项。校优秀共产党员。
 
-Getting started
+近十年来指导四十余名硕士、博士研究生。所指导的硕士生2人次获优秀硕士论文。负责研究生教改项目2项。其中已毕业硕士研究生去向有知名企业（腾讯、百度、今日头条、滴滴、阿里、中国银行、招商银行等）、攻读博士继续深造（美国卡耐基梅隆大学等）、研究机构（中科院信工所、电科院高压所等）。目前在读硕士研究生17人。同时，承担面向北京市的本科招生宣传和咨询任务，2019年获评北京理工大学“卓越领航人”。
+
+
+科研方向
 ======
-1. Register a GitHub account if you don't have one and confirm your e-mail (required!)
-1. Fork [this repository](https://github.com/academicpages/academicpages.github.io) by clicking the "fork" button in the top right. 
-1. Go to the repository's settings (rightmost item in the tabs that start with "Code", should be below "Unwatch"). Rename the repository "[your GitHub username].github.io", which will also be your website's URL.
-1. Set site-wide configuration and create content & metadata (see below -- also see [this set of diffs](http://archive.is/3TPas) showing what files were changed to set up [an example site](https://getorg-testacct.github.io) for a user with the username "getorg-testacct")
-1. Upload any files (like PDFs, .zip files, etc.) to the files/ directory. They will appear at https://[your GitHub username].github.io/files/example.pdf.  
-1. Check status by going to the repository settings, in the "GitHub pages" section
+当前研究工作主要在社会媒体处理、知识图谱、机器翻译和辅助翻译等智能语言处理相关领域。
 
-Site-wide configuration
-------
-The main configuration file for the site is in the base directory in [_config.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_config.yml), which defines the content in the sidebars and other site-wide features. You will need to replace the default variables with ones about yourself and your site's github repository. The configuration file for the top menu is in [_data/navigation.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_data/navigation.yml). For example, if you don't have a portfolio or blog posts, you can remove those items from that navigation.yml file to remove them from the header. 
 
-Create content & metadata
-------
-For site content, there is one markdown file for each type of content, which are stored in directories like _publications, _talks, _posts, _teaching, or _pages. For example, each talk is a markdown file in the [_talks directory](https://github.com/academicpages/academicpages.github.io/tree/master/_talks). At the top of each markdown file is structured data in YAML about the talk, which the theme will parse to do lots of cool stuff. The same structured data about a talk is used to generate the list of talks on the [Talks page](https://academicpages.github.io/talks), each [individual page](https://academicpages.github.io/talks/2012-03-01-talk-1) for specific talks, the talks section for the [CV page](https://academicpages.github.io/cv), and the [map of places you've given a talk](https://academicpages.github.io/talkmap.html) (if you run this [python file](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.py) or [Jupyter notebook](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb), which creates the HTML for the map based on the contents of the _talks directory).
+代表性学术成果
+======
+1) Topic-related Chinese message sentiment analysis, Neurocomputing, Vol. 210 (C), pp 237-246（SCI期刊，大类2区）, 2016.10, Liao, Chun; Feng, Chong * ; Yang, Sen; Huang, Heyan
 
-**Markdown generator**
+2) An Empirical Study of Investigating Mobile Applications Development Challenges, IEEE ACCESS, Vol. 6, pp 17711-17728（SCI期刊，小类2区）, 2018.03, Ahmad, Arshad; Li, Kan; Feng, Chong*; Asim, Syed Mohammad; Yousif, Abdallah; Ge, Shi
 
-I have also created [a set of Jupyter notebooks](https://github.com/academicpages/academicpages.github.io/tree/master/markdown_generator
-) that converts a CSV containing structured data about talks or presentations into individual markdown files that will be properly formatted for the academicpages template. The sample CSVs in that directory are the ones I used to create my own personal website at stuartgeiger.com. My usual workflow is that I keep a spreadsheet of my publications and talks, then run the code in these notebooks to generate the markdown files, then commit and push them to the GitHub repository.
+3) A Hybrid Method of Domain Lexicon Construction for Opinion Targets Extraction Using Syntax and Semantics, Journal of Computer Science and Technology, v 31, n 3, p 595-603（SCI期刊，CCF B类）, 2016.05, Liao, Chun; Feng, Chong * ; Yang, Sen; Huang, He-Yan
 
-How to edit your site's GitHub repository
-------
-Many people use a git client to create files on their local computer and then push them to GitHub's servers. If you are not familiar with git, you can directly edit these configuration and markdown files directly in the github.com interface. Navigate to a file (like [this one](https://github.com/academicpages/academicpages.github.io/blob/master/_talks/2012-03-01-talk-1.md) and click the pencil icon in the top right of the content preview (to the right of the "Raw | Blame | History" buttons). You can delete a file by clicking the trashcan icon to the right of the pencil icon. You can also create new files or upload files by navigating to a directory and clicking the "Create new file" or "Upload files" buttons. 
+4) A survey on mining stack overflow: question and answering (QA) community, Data Technologies And Applications, Vol. 52, No. 2, pp 190-247（SCI期刊）, 2018.02, Ahmad, Arshad; Feng, Chong*; Ge, Shi; Abdallah Yousif
 
-Example: editing a markdown file for a talk
-![Editing a markdown file for a talk](/images/editing-talk.png)
+5) Self-Adaptive Topic Model: A Solution to the Problem of "Rich Topics Get Richer", China Communications, 11(12), pp 35-43（SCI期刊）, 2014.12, Fang Ying, Huang Heyan, Jian Ping, Xin Xin, Feng Chong *
 
-For more info
-------
-More info about configuring academicpages can be found in [the guide](https://academicpages.github.io/markdown/). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful.
+
+承担科研情况
+======
+课题负责人，国家“863”计划项目（基于海量知识的语言信息智能理解与推理关键技术），2015.01至2017.12
+
+课题负责人，国家自然科学基金项目（基于概率化SC文法的多策略机器翻译研究），2013.01至2015.12
+
+子课题负责人，国家自然科学基金重点项目（大数据和社会场景下的互动语言意图深度理解基础理论和关键技术研究），2017.01至2020.12
+
+子课题负责人，国家自然科学基金重点项目（基于本体的多策略民汉机器翻译研究），2012.01至2016.12
+
+子课题负责人，国家“973”计划课题（面向言语的多策略机器翻译方法）,2013.01至2017.12
+
+
+所获奖励
+======
+多语网络情报处理与内容安全关键技术与应用, 中华人民共和国工信部, 省部级, 三等, 2015.12
+
+多策略智能辅助翻译系统及工程管理平台, 北京市科委, 省部级, 三等, 2014.12
+
+汉英双向标准机器翻译系统研制, 国家质检总局, 省部级, 二等, 2007.06
+
+公开来源多语***处理系统（国防科技成果鉴定）, 国防科工局, 2015.11
+
+基于语义本体的***知识管理系统（国防科技成果鉴定）, 国防科工局, 2012.12
+
+社会兼职
+======
+中国中文信息学会社会媒体处理专委会委员、语言与知识计算专委会委员
+
+中国计算机学会中文信息技术专委会委员
+
+国家科技部项目评审专家、北京市科委项目评审专家
+
+国家自然科学基金通讯评审专家、北京市自然科学基金通讯评审专家 
+
+国家计算机网络与信息安全管理中心项目评审专家
+
+文化部对外文化联络局特聘专家
+
+
+备注
+======
+欢迎报考研究生
