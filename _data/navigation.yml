@@ -8,3 +8,6 @@ main:
   
   - title: "实验室成员"
     url: /members/
+
+  - title: "科研项目"
+    url: /projects/
