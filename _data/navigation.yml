@@ -3,11 +3,20 @@ main:
   - title: "实验室新闻动态"
     url: /news/
 
+  - title: "研究方向"
+    url: /researches/
+
   - title: "学术成果"
     url: /publications/
-  
+
+  - title: "模型演示"
+    url: /models/
+
+  - title: "评测系统"
+    url: /evals/
+
+  - title: "数据集"
+    url: /datasets/
+
   - title: "实验室成员"
     url: /members/
-
-  - title: "科研项目"
-    url: /projects/

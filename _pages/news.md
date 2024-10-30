@@ -1,7 +1,7 @@
 ---
 layout: archive
-title: "学术成果"
-permalink: /publications/
+title: "实验室新闻动态"
+permalink: /news/
 author_profile: true
 ---
 
@@ -11,6 +11,6 @@ author_profile: true
 
 {% include base_path %}
 
-{% for post in site.publications reversed %}
+{% for post in site.news reversed %}
   {% include archive-single.html %}
 {% endfor %}

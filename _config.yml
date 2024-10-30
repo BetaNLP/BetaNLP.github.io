@@ -8,11 +8,11 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-title                    : "北京理工大学计算机学院语言智能和社会计算研究所"
+title                    : "北京理工大学计算机学院冯冲课题组"
 title_separator          : "-"
 name                     : &name "Your Name"
 description              : &description "personal description"
-url                      : https://betanlp.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : https://betanlp.github.io # the base hostname & protocol for your site .e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "academicpages/academicpages.github.io"
 
@@ -214,13 +214,30 @@ collections:
   projects:
     output: true
     permalink: /:collection/:path/
-
+  researches:
+    output: true
+    permalink: /:collection/:path/
+  news:
+    output: true
+    permalink: /:collection/:path/
+  achievements:
+    output: true
+    permalink: /:collection/:path/
+  models:
+    output: true
+    permalink: /:collection/:path/
+  evals:
+    output: true
+    permalink: /:collection/:path/
+  datasets:
+    output: true
+    permalink: /:collection/:path/
 # Defaults
 defaults:
-  # _posts
+  # _news
   - scope:
       path: ""
-      type: posts
+      type: news
     values:
       layout: single
       author_profile: true
@@ -276,6 +293,38 @@ defaults:
       type: projects
     values:
       layout: project
+      author_profile: true
+      share: true
+  # _researches
+  - scope:
+      path: ""
+      type: researches
+    values:
+      layout: research
+      author_profile: true
+      share: true
+  # _achievements
+  - scope:
+      path: ""
+      type: achievements
+    values:
+      layout: achievement
+      author_profile: true
+      share: true
+  # _models
+  - scope:
+      path: ""
+      type: models
+    values:
+      layout: model
+      author_profile: true
+      share: true
+  # _evals
+  - scope:
+      path: ""
+      type: evalls
+    values:
+      layout: eval
       author_profile: true
       share: true
 

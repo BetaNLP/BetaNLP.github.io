@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/_data/authors.yml" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/_pages/404.md" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/_pages/abstract_dataset.md" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/_pages/achievements.md" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/_pages/archive-layout-with-content.md" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/_pages/category-archive.html" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/_pages/collection-archive.html" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/_pages/cv.md" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/_pages/dataset.md" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/_pages/eval.md" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/_pages/kws_dataset.md" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/_pages/markdown.md" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/_pages/model.md" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/_pages/page-archive.html" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/_pages/portfolio.html" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/_pages/sitemap.md" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/_pages/tag-archive.html" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/_pages/talks.html" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/_pages/teaching.html" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/_pages/terms.md" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/_pages/year-archive.html" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/_portfolio/portfolio-1.md" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/_portfolio/portfolio-2.html" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/_publications/1-paper-title-number-1.md" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/_publications/1-paper-title-number-5.md" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/_publications/2023-10-01-paper-title-number-1.md" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/_publications/2023-10-01-paper-title-number-5.md" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/_talks/2012-03-01-talk-1.md" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/_talks/2013-03-01-tutorial-1.md" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/_talks/2014-02-01-talk-2.md" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/_talks/2014-03-01-talk-3.md" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/_teaching/2014-spring-teaching-1.md" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/_teaching/2015-spring-teaching-2.md" charset="UTF-8" />
+    <file url="PROJECT" charset="GBK" />
+  </component>
+</project>
